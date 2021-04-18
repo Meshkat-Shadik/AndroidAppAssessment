@@ -33,7 +33,7 @@
         android:ems="10"
         android:layout_gravity="center"
         android:layout_marginHorizontal="50dp"
-        android:hint="Enter Your Name"
+        android:hint="Enter Your Password"
         android:inputType="textPassword" />
 
     <!--    spacing-->

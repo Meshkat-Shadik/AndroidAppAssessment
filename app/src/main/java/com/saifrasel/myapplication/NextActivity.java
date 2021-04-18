@@ -2,6 +2,7 @@ package com.saifrasel.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -48,7 +49,7 @@ public class NextActivity extends AppCompatActivity implements  ButtonClickNotif
     public void onButtonClick(int position) {
         if(position == 0)
         {
-            setFragment(new CalculateBmi());
+            setFragment(new CalculateBmi(NextActivity.this));
         }
         else if(position==1)
         {
@@ -61,6 +62,11 @@ public class NextActivity extends AppCompatActivity implements  ButtonClickNotif
 
     }
 
+    @Override
+    public void ToastMaker(String data, String status) {
+//        Toast.makeText(getApplicationContext(),data,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"Your Score is : "+status+",\n"+data ,Toast.LENGTH_SHORT).show();
+    }
 
 
     private void setFragment(Fragment fragment) {

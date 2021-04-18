@@ -10,7 +10,21 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4894ab1-93c6-4221-b95d-242db6ad5a68" name="Default Changelist" comment="" />
+    <list default="true" id="c4894ab1-93c6-4221-b95d-242db6ad5a68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/saifrasel/myapplication/ButtonClickNotifyParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/saifrasel/myapplication/ButtonClickNotifyParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/saifrasel/myapplication/CalculateBmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/saifrasel/myapplication/CalculateBmi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/saifrasel/myapplication/NextActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/saifrasel/myapplication/NextActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +52,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rHx9keanOxOuK4yYJ9O5L9mevH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="F:/Android" />
     <property name="last_opened_file_path" value="J:/Android/aPPs/301_B" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -129,10 +147,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1618667600178">
+    <state x="292" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1618731455761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618667600178" />
+    <state x="292" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618731455761" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618652997136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

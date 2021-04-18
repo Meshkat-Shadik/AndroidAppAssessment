@@ -1,5 +1,6 @@
 package com.saifrasel.myapplication;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -25,6 +26,14 @@ public class CalculateBmi extends Fragment {
     EditText bmiHeight;
     String res;
     ButtonClickNotifyParent buttonClickNotifyParent;
+    private Context c;
+
+
+    CalculateBmi(Context context){
+        super();
+        c = context;
+        buttonClickNotifyParent = (NextActivity)c;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,7 +57,8 @@ public class CalculateBmi extends Fragment {
                             float h = Float.parseFloat(height);
                             float BMI = w / (h * h);
                             String res = checkBmiStatus(BMI);
-                            MakeToast(res,String.valueOf(BMI)).show();
+                            //MakeToast(res,String.valueOf(BMI)).show();
+                            buttonClickNotifyParent.ToastMaker(res,String.valueOf(BMI));
                         }
                         catch (Exception e)
                         {
@@ -78,8 +88,8 @@ public class CalculateBmi extends Fragment {
         return  temp;
     }
 
-    private Toast MakeToast (String data, String status)
-    {
-        return Toast.makeText(getActivity(),"Your Score is : "+status+",\n"+data ,Toast.LENGTH_SHORT);
-    }
+//    private Toast MakeToast (String data, String status)
+//    {
+//        return Toast.makeText(getActivity(),"Your Score is : "+status+",\n"+data ,Toast.LENGTH_SHORT);
+//    }
 }
